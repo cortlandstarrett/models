@@ -55,31 +55,11 @@ INSERT INTO O_TFR
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
 	'select one segment related by self->SEGMENT[R18];
-segment.index = 0;
-segment.current_cycle = 1;
-create event instance tick of WRITING2:tick() to self;
-segment.clock = TIM::timer_start_recurring( microseconds:segment.period, event_inst:tick );',
+select one buffer related by segment->BUFFER[R19];
+HW::DAC_play( E:buffer.data[ segment.index ] );',
 	1,
 	'',
 	"be1d0a87-7ef0-4611-b34b-3892ee1f6fd5");
-INSERT INTO O_NBATTR
-	VALUES ("99dfe68c-744c-423e-9f00-1e0697ecab95",
-	"85f26ee6-d6ce-4942-885c-9ae50424ca27");
-INSERT INTO O_BATTR
-	VALUES ("99dfe68c-744c-423e-9f00-1e0697ecab95",
-	"85f26ee6-d6ce-4942-885c-9ae50424ca27");
-INSERT INTO O_ATTR
-	VALUES ("99dfe68c-744c-423e-9f00-1e0697ecab95",
-	"85f26ee6-d6ce-4942-885c-9ae50424ca27",
-	"bab55d6b-1523-4b75-a79b-fe1b833eb177",
-	'current_state',
-	'',
-	'',
-	'current_state',
-	0,
-	"ba5eda7a-def5-0000-0000-000000000006",
-	'',
-	'');
 INSERT INTO O_NBATTR
 	VALUES ("b55570c6-53c0-461c-b8c0-eaee42141e13",
 	"85f26ee6-d6ce-4942-885c-9ae50424ca27");

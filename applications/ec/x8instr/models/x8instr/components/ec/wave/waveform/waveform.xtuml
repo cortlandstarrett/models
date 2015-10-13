@@ -77,7 +77,7 @@ d[ i ] = -3;      i = i + 1;       // timeline duration exponent
 d[ i ] = 3;       i = i + 1;       // number of segments
 
 d[ i ] = 1;       i = i + 1;       // segment number
-d[ i ] = 200;     i = i + 1;       // period base
+d[ i ] = 440;     i = i + 1;       // period base
 d[ i ] = -3;      i = i + 1;       // exponent
 d[ i ] = 1;       i = i + 1;       // cycles
 d[ i ] = 0;       i = i + 1;       // no branch_offset
@@ -86,7 +86,7 @@ d[ i ] = 0;       i = i + 1;       // no DC_offset
 d[ i ] = 1;       i = i + 1;       // 1 data value of 1
 
 d[ i ] = 2;       i = i + 1;       // segment number
-d[ i ] = 800;     i = i + 1;       // period base
+d[ i ] = 180;     i = i + 1;       // period base
 d[ i ] = -3;      i = i + 1;       // exponent
 d[ i ] = 1;       i = i + 1;       // cycles
 d[ i ] = 0;       i = i + 1;       // no branch_offset
@@ -95,7 +95,7 @@ d[ i ] = 0;       i = i + 1;       // no DC_offset
 d[ i ] = 2;       i = i + 1;       // 1 data value
 
 d[ i ] = 3;       i = i + 1;       // segment number
-d[ i ] = 400;     i = i + 1;       // period base
+d[ i ] = 360;     i = i + 1;       // period base
 d[ i ] = -3;      i = i + 1;       // exponent
 d[ i ] = 1;       i = i + 1;       // cycles
 d[ i ] = 0;       i = i + 1;       // no branch_offset

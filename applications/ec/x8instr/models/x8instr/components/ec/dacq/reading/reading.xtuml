@@ -43,7 +43,7 @@ else
 end if;',
 	1,
 	'',
-	"d7b373ca-4bef-4e94-aa3a-3a58856f52a2");
+	"505fe4b5-24d4-4d6d-a5c6-8a1814c95a16");
 INSERT INTO O_TPARM
 	VALUES ("6dec0b43-5100-46f5-88f6-656bb3862808",
 	"6b160328-553c-405d-84db-a5e7f1a7a7a8",
@@ -80,6 +80,18 @@ INSERT INTO O_TFR
 	1,
 	'',
 	"ccbe3854-f870-451c-9668-be2deebd6070");
+INSERT INTO O_TFR
+	VALUES ("505fe4b5-24d4-4d6d-a5c6-8a1814c95a16",
+	"8ad0dd13-6581-4222-a0b7-04cdb41ae032",
+	'play',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'// CDS - add state machine or something to respond to end-of-convert
+HW::ADC_convert();',
+	1,
+	'',
+	"d7b373ca-4bef-4e94-aa3a-3a58856f52a2");
 INSERT INTO O_NBATTR
 	VALUES ("17e0d0ed-0360-4c19-b6fb-c41001b65c65",
 	"8ad0dd13-6581-4222-a0b7-04cdb41ae032");

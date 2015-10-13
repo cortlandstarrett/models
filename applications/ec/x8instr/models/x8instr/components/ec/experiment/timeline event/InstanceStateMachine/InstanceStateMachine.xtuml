@@ -70,33 +70,6 @@ INSERT INTO SM_STATE
 	'done',
 	3,
 	0);
-INSERT INTO SM_SEME
-	VALUES ("f2f06651-a009-4519-8ee5-d2e19c6ce146",
-	"aa98964a-dce1-484a-bd68-3f050af11fae",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO SM_CH
-	VALUES ("f2f06651-a009-4519-8ee5-d2e19c6ce146",
-	"c513929c-0c9d-4a2c-83e7-3a7d62571e39",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000",
-	'');
-INSERT INTO SM_SEME
-	VALUES ("f2f06651-a009-4519-8ee5-d2e19c6ce146",
-	"c513929c-0c9d-4a2c-83e7-3a7d62571e39",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO SM_CH
-	VALUES ("f2f06651-a009-4519-8ee5-d2e19c6ce146",
-	"a5409363-d8ed-42a4-9c56-b1f32602d8df",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000",
-	'');
-INSERT INTO SM_SEME
-	VALUES ("f2f06651-a009-4519-8ee5-d2e19c6ce146",
-	"a5409363-d8ed-42a4-9c56-b1f32602d8df",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
 INSERT INTO SM_CH
 	VALUES ("f2f06651-a009-4519-8ee5-d2e19c6ce146",
 	"aa98964a-dce1-484a-bd68-3f050af11fae",
@@ -148,27 +121,6 @@ INSERT INTO SM_SEME
 	"aa98964a-dce1-484a-bd68-3f050af11fae",
 	"720d761a-cc3f-485c-a112-04716a0667a1",
 	"00000000-0000-0000-0000-000000000000");
-INSERT INTO SM_SEME
-	VALUES ("c750f057-0780-4912-a098-39ef15be66b9",
-	"c513929c-0c9d-4a2c-83e7-3a7d62571e39",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO SM_SEME
-	VALUES ("c750f057-0780-4912-a098-39ef15be66b9",
-	"a5409363-d8ed-42a4-9c56-b1f32602d8df",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO SM_CH
-	VALUES ("c750f057-0780-4912-a098-39ef15be66b9",
-	"aa98964a-dce1-484a-bd68-3f050af11fae",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000",
-	'');
-INSERT INTO SM_SEME
-	VALUES ("c750f057-0780-4912-a098-39ef15be66b9",
-	"aa98964a-dce1-484a-bd68-3f050af11fae",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
 INSERT INTO SM_CH
 	VALUES ("c750f057-0780-4912-a098-39ef15be66b9",
 	"c513929c-0c9d-4a2c-83e7-3a7d62571e39",
@@ -198,33 +150,6 @@ INSERT INTO SM_STATE
 	'ready',
 	1,
 	0);
-INSERT INTO SM_SEME
-	VALUES ("664a43c1-06f8-44ac-8ef7-3476ee67c652",
-	"aa98964a-dce1-484a-bd68-3f050af11fae",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO SM_CH
-	VALUES ("664a43c1-06f8-44ac-8ef7-3476ee67c652",
-	"c513929c-0c9d-4a2c-83e7-3a7d62571e39",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000",
-	'');
-INSERT INTO SM_SEME
-	VALUES ("664a43c1-06f8-44ac-8ef7-3476ee67c652",
-	"c513929c-0c9d-4a2c-83e7-3a7d62571e39",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
-INSERT INTO SM_CH
-	VALUES ("664a43c1-06f8-44ac-8ef7-3476ee67c652",
-	"a5409363-d8ed-42a4-9c56-b1f32602d8df",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000",
-	'');
-INSERT INTO SM_SEME
-	VALUES ("664a43c1-06f8-44ac-8ef7-3476ee67c652",
-	"a5409363-d8ed-42a4-9c56-b1f32602d8df",
-	"720d761a-cc3f-485c-a112-04716a0667a1",
-	"00000000-0000-0000-0000-000000000000");
 INSERT INTO SM_CH
 	VALUES ("664a43c1-06f8-44ac-8ef7-3476ee67c652",
 	"aa98964a-dce1-484a-bd68-3f050af11fae",
@@ -333,7 +258,7 @@ if ( empty segment )
   if ( not_empty segment )
     relate self to segment across R16.''has current'';
   else
-    LOG::LogFailure( message:"tried to play empty waveform" );
+    TRACE::log( id:2020, flavor:"failure", message:"tried to play empty waveform" );
   end if;
 else
   // get next
@@ -352,9 +277,7 @@ if ( not_empty segment )
   segment_duration = segment.length * segment.period;
   create event instance next of TIMELINEEVENT2:next() to self;
   self.segment_timer = TIM::timer_start( microseconds:segment_duration, event_inst:next );
-  // CDS - call play on segment which will propagate down.
-  // CDS - could use polymorphic event
-  //generate SEGMENT1:play() to segment;
+  generate SEGMENT1:play() to segment;
   TRACE::log( id:2021, flavor:"info", message:"playing segment" );
   LOG::LogInteger( message:segment.number );
 end if;',
@@ -382,7 +305,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("1630b9df-c0a0-44b9-9c77-6563ea0a8bde",
 	"720d761a-cc3f-485c-a112-04716a0667a1",
-	3,
+	1,
 	'',
 	'');
 INSERT INTO SM_TAH
@@ -395,7 +318,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("bf81243e-a525-469a-96f3-e58d0e8a1600",
 	"720d761a-cc3f-485c-a112-04716a0667a1",
-	3,
+	1,
 	'',
 	'');
 INSERT INTO SM_TAH
@@ -408,7 +331,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("9dcaddc9-0fa2-44ca-83a1-a5ef0e1ff225",
 	"720d761a-cc3f-485c-a112-04716a0667a1",
-	3,
+	1,
 	'',
 	'');
 INSERT INTO SM_TAH
@@ -421,7 +344,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("960f1931-af83-446a-864d-1782067478fb",
 	"720d761a-cc3f-485c-a112-04716a0667a1",
-	3,
+	1,
 	'',
 	'');
 INSERT INTO GD_MD
