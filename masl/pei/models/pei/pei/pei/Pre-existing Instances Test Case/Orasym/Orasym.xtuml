@@ -1,0 +1,120 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	'Orasym',
+	15,
+	'O',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("41a3adcc-f80d-4625-9aea-730aea5fd5c4",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92");
+INSERT INTO O_BATTR
+	VALUES ("41a3adcc-f80d-4625-9aea-730aea5fd5c4",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92");
+INSERT INTO O_ATTR
+	VALUES ("41a3adcc-f80d-4625-9aea-730aea5fd5c4",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	"00000000-0000-0000-0000-000000000000",
+	'oID',
+	'',
+	'',
+	'oID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("868c11ff-f386-4972-8ee6-adb79953f729",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92");
+INSERT INTO O_BATTR
+	VALUES ("868c11ff-f386-4972-8ee6-adb79953f729",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92");
+INSERT INTO O_ATTR
+	VALUES ("868c11ff-f386-4972-8ee6-adb79953f729",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	"41a3adcc-f80d-4625-9aea-730aea5fd5c4",
+	'voo',
+	'',
+	'',
+	'voo',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	0,
+	"41a3adcc-f80d-4625-9aea-730aea5fd5c4",
+	"5ca513dc-6649-4c3d-a5ee-8fa4a9ef9069",
+	"f2bc2bc8-594a-4f50-9fa2-4f56814e9090",
+	"abda4fe8-4a3d-4f94-819f-4c40711a3c23",
+	"85014fcc-4a61-47fb-b294-c057191429f7",
+	"086dd6c6-292f-402f-bde8-b926ac28c3eb",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Orasym',
+	'oID',
+	'R8.''learns from''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	"5ca513dc-6649-4c3d-a5ee-8fa4a9ef9069",
+	"f2bc2bc8-594a-4f50-9fa2-4f56814e9090",
+	'../Pre-existing Instances Test Case.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("41a3adcc-f80d-4625-9aea-730aea5fd5c4",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	0,
+	"5ca513dc-6649-4c3d-a5ee-8fa4a9ef9069",
+	"abda4fe8-4a3d-4f94-819f-4c40711a3c23",
+	'../Pre-existing Instances Test Case.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("85014fcc-4a61-47fb-b294-c057191429f7",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	"41a3adcc-f80d-4625-9aea-730aea5fd5c4",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	1,
+	'oID');
+INSERT INTO O_ATTR
+	VALUES ("85014fcc-4a61-47fb-b294-c057191429f7",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	"868c11ff-f386-4972-8ee6-adb79953f729",
+	'teacheroID',
+	'',
+	'teacher',
+	'oID',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92");
+INSERT INTO O_OIDA
+	VALUES ("41a3adcc-f80d-4625-9aea-730aea5fd5c4",
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	0,
+	'oID');
+INSERT INTO O_ID
+	VALUES (1,
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92");
+INSERT INTO O_ID
+	VALUES (2,
+	"e25709a9-e3e9-4d72-9323-0bf95680bb92");
+INSERT INTO PE_PE
+	VALUES ("e25709a9-e3e9-4d72-9323-0bf95680bb92",
+	1,
+	"74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	"3973559c-12d7-4923-abc0-d4bb325b894c",
+	'Pre-existing Instances Test Case',
+	'',
+	1,
+	'../Pre-existing Instances Test Case.xtuml');

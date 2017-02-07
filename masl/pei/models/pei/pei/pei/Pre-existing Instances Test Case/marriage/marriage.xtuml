@@ -1,0 +1,183 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("676ff055-26f0-4bd5-9691-d990bcd9051c",
+	'marriage',
+	22,
+	'V',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("02825a01-a143-4905-9988-eeb5f73adecb",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c");
+INSERT INTO O_BATTR
+	VALUES ("02825a01-a143-4905-9988-eeb5f73adecb",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c");
+INSERT INTO O_ATTR
+	VALUES ("02825a01-a143-4905-9988-eeb5f73adecb",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"00000000-0000-0000-0000-000000000000",
+	'vID',
+	'',
+	'',
+	'vID',
+	0,
+	"24abd3b2-e997-4749-9654-84bb42887183",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("24abd3b2-e997-4749-9654-84bb42887183",
+	"00000000-0000-0000-0000-000000000000",
+	'arbitrary_id',
+	'Arbitrary ID with core data type of unique_id.',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("0f358fcc-5f7d-4863-8ece-89f97b250ae4",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c");
+INSERT INTO O_BATTR
+	VALUES ("0f358fcc-5f7d-4863-8ece-89f97b250ae4",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c");
+INSERT INTO O_ATTR
+	VALUES ("0f358fcc-5f7d-4863-8ece-89f97b250ae4",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"02825a01-a143-4905-9988-eeb5f73adecb",
+	'year',
+	'',
+	'',
+	'year',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"796cc70a-9b04-4679-90ab-565c205b0ce2",
+	0,
+	"83a19772-6ec6-46a5-8596-0953c3208385",
+	"a82e845e-b034-4e04-80a3-279e12740253",
+	"6f123d4b-cced-4a93-9307-5bc70f0a3a13",
+	"7822cbe3-7eac-477d-a903-a1ef4387d1aa",
+	"90ce5988-f1b9-4de7-8c83-94966e5b769a",
+	"89aa9fb1-55e3-4afb-a9f3-40ccbc6ea2bd",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'person',
+	'name',
+	'R11.''is husband of''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"a82e845e-b034-4e04-80a3-279e12740253",
+	"6f123d4b-cced-4a93-9307-5bc70f0a3a13",
+	'../Pre-existing Instances Test Case.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("83a19772-6ec6-46a5-8596-0953c3208385",
+	"796cc70a-9b04-4679-90ab-565c205b0ce2",
+	0,
+	"a82e845e-b034-4e04-80a3-279e12740253",
+	"7822cbe3-7eac-477d-a903-a1ef4387d1aa",
+	'../Pre-existing Instances Test Case.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("90ce5988-f1b9-4de7-8c83-94966e5b769a",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"83a19772-6ec6-46a5-8596-0953c3208385",
+	"796cc70a-9b04-4679-90ab-565c205b0ce2",
+	0,
+	'name');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("83a19772-6ec6-46a5-8596-0953c3208385",
+	"796cc70a-9b04-4679-90ab-565c205b0ce2",
+	'../person/person.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("90ce5988-f1b9-4de7-8c83-94966e5b769a",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"0f358fcc-5f7d-4863-8ece-89f97b250ae4",
+	'wife',
+	'',
+	'',
+	'wife',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"796cc70a-9b04-4679-90ab-565c205b0ce2",
+	0,
+	"83a19772-6ec6-46a5-8596-0953c3208385",
+	"a82e845e-b034-4e04-80a3-279e12740253",
+	"6f123d4b-cced-4a93-9307-5bc70f0a3a13",
+	"4f5c59f8-482a-49ef-9451-2288a68e4e21",
+	"d6c70302-90ba-49a7-9670-fa616ba81afe",
+	"6facc76b-443a-46f4-a5ec-51d1efa0d77f",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'person',
+	'name',
+	'R11.''is wife of''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("83a19772-6ec6-46a5-8596-0953c3208385",
+	"796cc70a-9b04-4679-90ab-565c205b0ce2",
+	0,
+	"a82e845e-b034-4e04-80a3-279e12740253",
+	"4f5c59f8-482a-49ef-9451-2288a68e4e21",
+	'../Pre-existing Instances Test Case.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("d6c70302-90ba-49a7-9670-fa616ba81afe",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"83a19772-6ec6-46a5-8596-0953c3208385",
+	"796cc70a-9b04-4679-90ab-565c205b0ce2",
+	0,
+	'name');
+INSERT INTO O_ATTR
+	VALUES ("d6c70302-90ba-49a7-9670-fa616ba81afe",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	"90ce5988-f1b9-4de7-8c83-94966e5b769a",
+	'husband',
+	'',
+	'',
+	'husband',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"676ff055-26f0-4bd5-9691-d990bcd9051c");
+INSERT INTO O_OIDA
+	VALUES ("02825a01-a143-4905-9988-eeb5f73adecb",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	0,
+	'vID');
+INSERT INTO O_ID
+	VALUES (1,
+	"676ff055-26f0-4bd5-9691-d990bcd9051c");
+INSERT INTO O_OIDA
+	VALUES ("90ce5988-f1b9-4de7-8c83-94966e5b769a",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	1,
+	'wife');
+INSERT INTO O_OIDA
+	VALUES ("d6c70302-90ba-49a7-9670-fa616ba81afe",
+	"676ff055-26f0-4bd5-9691-d990bcd9051c",
+	1,
+	'husband');
+INSERT INTO O_ID
+	VALUES (2,
+	"676ff055-26f0-4bd5-9691-d990bcd9051c");
+INSERT INTO PE_PE
+	VALUES ("676ff055-26f0-4bd5-9691-d990bcd9051c",
+	1,
+	"74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	"3973559c-12d7-4923-abc0-d4bb325b894c",
+	'Pre-existing Instances Test Case',
+	'',
+	1,
+	'../Pre-existing Instances Test Case.xtuml');

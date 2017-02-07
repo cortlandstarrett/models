@@ -1,0 +1,73 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("b1e9d21a-dfa9-4b38-9c95-9a590a4b7306",
+	'employee',
+	14,
+	'N',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("c64a0053-1cb6-4129-87ca-b0e6acede597",
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306");
+INSERT INTO O_BATTR
+	VALUES ("c64a0053-1cb6-4129-87ca-b0e6acede597",
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306");
+INSERT INTO O_ATTR
+	VALUES ("c64a0053-1cb6-4129-87ca-b0e6acede597",
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306",
+	"00000000-0000-0000-0000-000000000000",
+	'nID',
+	'',
+	'',
+	'nID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("8f8f3d29-1d6f-4bda-a659-9f6f6becd6c5",
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306");
+INSERT INTO O_BATTR
+	VALUES ("8f8f3d29-1d6f-4bda-a659-9f6f6becd6c5",
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306");
+INSERT INTO O_ATTR
+	VALUES ("8f8f3d29-1d6f-4bda-a659-9f6f6becd6c5",
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306",
+	"c64a0053-1cb6-4129-87ca-b0e6acede597",
+	'name',
+	'',
+	'',
+	'name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306");
+INSERT INTO O_OIDA
+	VALUES ("c64a0053-1cb6-4129-87ca-b0e6acede597",
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306",
+	0,
+	'nID');
+INSERT INTO O_ID
+	VALUES (1,
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306");
+INSERT INTO O_ID
+	VALUES (2,
+	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306");
+INSERT INTO PE_PE
+	VALUES ("b1e9d21a-dfa9-4b38-9c95-9a590a4b7306",
+	1,
+	"74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	"3973559c-12d7-4923-abc0-d4bb325b894c",
+	'Pre-existing Instances Test Case',
+	'',
+	1,
+	'../Pre-existing Instances Test Case.xtuml');

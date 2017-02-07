@@ -1,0 +1,33 @@
+private service pei::test () is
+//
+end service;
+
+private service pei::setup () is
+// 
+// Check to see if any instances are already here.
+// This would mean that we have restored from NVS
+// or that preexisting instances were defined in data.
+//
+
+
+  //
+  // Set up instances for existance test later on.
+  //
+end service;
+
+private service pei::test2 () is
+//
+end service;
+
+private service pei::xit () is
+//
+end service;
+
+private service pei::do_creates () is
+//
+end service;
+
+private service pei::test1 () is
+//
+end service;
+

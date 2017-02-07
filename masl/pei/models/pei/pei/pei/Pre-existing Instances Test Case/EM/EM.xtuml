@@ -1,0 +1,73 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("9e8bfad3-5bfc-4721-a13d-f7b36b89cd01",
+	'EM',
+	5,
+	'E',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("0f73e645-f51b-4942-9fbb-7a853e8b61ad",
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01");
+INSERT INTO O_BATTR
+	VALUES ("0f73e645-f51b-4942-9fbb-7a853e8b61ad",
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01");
+INSERT INTO O_ATTR
+	VALUES ("0f73e645-f51b-4942-9fbb-7a853e8b61ad",
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01",
+	"00000000-0000-0000-0000-000000000000",
+	'eID',
+	'',
+	'',
+	'eID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("72cdbe2a-d4f0-448c-9eaa-8f0243dd7fed",
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01");
+INSERT INTO O_BATTR
+	VALUES ("72cdbe2a-d4f0-448c-9eaa-8f0243dd7fed",
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01");
+INSERT INTO O_ATTR
+	VALUES ("72cdbe2a-d4f0-448c-9eaa-8f0243dd7fed",
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01",
+	"0f73e645-f51b-4942-9fbb-7a853e8b61ad",
+	'ratio',
+	'',
+	'',
+	'ratio',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000003",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01");
+INSERT INTO O_OIDA
+	VALUES ("0f73e645-f51b-4942-9fbb-7a853e8b61ad",
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01",
+	0,
+	'eID');
+INSERT INTO O_ID
+	VALUES (1,
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01");
+INSERT INTO O_ID
+	VALUES (2,
+	"9e8bfad3-5bfc-4721-a13d-f7b36b89cd01");
+INSERT INTO PE_PE
+	VALUES ("9e8bfad3-5bfc-4721-a13d-f7b36b89cd01",
+	1,
+	"74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	"3973559c-12d7-4923-abc0-d4bb325b894c",
+	'Pre-existing Instances Test Case',
+	'',
+	1,
+	'../Pre-existing Instances Test Case.xtuml');

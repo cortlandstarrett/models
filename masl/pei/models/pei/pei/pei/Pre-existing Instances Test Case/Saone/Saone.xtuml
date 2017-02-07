@@ -1,0 +1,80 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("b0799b8c-ad04-405f-8cea-55e7151ebb61",
+	'Saone',
+	19,
+	'S',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("f1f33ada-a9c0-4d28-972d-0326814fe6df",
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61");
+INSERT INTO O_BATTR
+	VALUES ("f1f33ada-a9c0-4d28-972d-0326814fe6df",
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61");
+INSERT INTO O_ATTR
+	VALUES ("f1f33ada-a9c0-4d28-972d-0326814fe6df",
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61",
+	"00000000-0000-0000-0000-000000000000",
+	'sID',
+	'',
+	'',
+	'sID',
+	0,
+	"24abd3b2-e997-4749-9654-84bb42887183",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("24abd3b2-e997-4749-9654-84bb42887183",
+	"00000000-0000-0000-0000-000000000000",
+	'arbitrary_id',
+	'Arbitrary ID with core data type of unique_id.',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("31af075f-add8-47a8-a6cd-36ad83150f93",
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61");
+INSERT INTO O_BATTR
+	VALUES ("31af075f-add8-47a8-a6cd-36ad83150f93",
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61");
+INSERT INTO O_ATTR
+	VALUES ("31af075f-add8-47a8-a6cd-36ad83150f93",
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61",
+	"f1f33ada-a9c0-4d28-972d-0326814fe6df",
+	's',
+	'',
+	'',
+	's',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61");
+INSERT INTO O_OIDA
+	VALUES ("f1f33ada-a9c0-4d28-972d-0326814fe6df",
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61",
+	0,
+	'sID');
+INSERT INTO O_ID
+	VALUES (1,
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61");
+INSERT INTO O_ID
+	VALUES (2,
+	"b0799b8c-ad04-405f-8cea-55e7151ebb61");
+INSERT INTO PE_PE
+	VALUES ("b0799b8c-ad04-405f-8cea-55e7151ebb61",
+	1,
+	"74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("74667946-71dd-4082-bf97-0caf1192ab3d",
+	"00000000-0000-0000-0000-000000000000",
+	"3973559c-12d7-4923-abc0-d4bb325b894c",
+	'Pre-existing Instances Test Case',
+	'',
+	1,
+	'../Pre-existing Instances Test Case.xtuml');
