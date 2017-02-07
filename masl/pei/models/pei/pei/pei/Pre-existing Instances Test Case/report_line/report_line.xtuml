@@ -2,7 +2,7 @@
 
 INSERT INTO O_OBJ
 	VALUES ("37cd9c29-6472-4b86-b162-93279b9ce9c5",
-	'report line',
+	'report_line',
 	13,
 	'M',
 	'',

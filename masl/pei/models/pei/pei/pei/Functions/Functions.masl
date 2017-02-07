@@ -1,12 +1,15 @@
 private service pei::test () is
-//
+i : integer;
+begin
+  i := 1;
 end service;
 
 private service pei::setup () is
+begin
 // 
 // Check to see if any instances are already here.
 // This would mean that we have restored from NVS
-// or that preexisting instances were defined in data.
+// or that pre-existing instances were defined in data.
 //
 
 
@@ -16,18 +19,22 @@ private service pei::setup () is
 end service;
 
 private service pei::test2 () is
+begin
 //
 end service;
 
 private service pei::xit () is
+begin
 //
 end service;
 
 private service pei::do_creates () is
+begin
 //
 end service;
 
 private service pei::test1 () is
+begin
 //
 end service;
 
