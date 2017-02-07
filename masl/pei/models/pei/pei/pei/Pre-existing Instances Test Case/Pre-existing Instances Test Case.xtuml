@@ -4017,7 +4017,7 @@ INSERT INTO R_AONE
 	"29c6ceba-9de6-4d85-a51f-96652243bdd0",
 	0,
 	1,
-	'works for');
+	'works_for');
 INSERT INTO O_RTIDA
 	VALUES ("c64a0053-1cb6-4129-87ca-b0e6acede597",
 	"b1e9d21a-dfa9-4b38-9c95-9a590a4b7306",
@@ -4420,7 +4420,7 @@ INSERT INTO R_AOTH
 	"7822cbe3-7eac-477d-a903-a1ef4387d1aa",
 	0,
 	1,
-	'is husband of');
+	'is_husband_of');
 INSERT INTO O_RTIDA
 	VALUES ("83a19772-6ec6-46a5-8596-0953c3208385",
 	"796cc70a-9b04-4679-90ab-565c205b0ce2",
@@ -4461,7 +4461,7 @@ INSERT INTO R_AONE
 	"4f5c59f8-482a-49ef-9451-2288a68e4e21",
 	0,
 	1,
-	'is wife of');
+	'is_wife_of');
 INSERT INTO O_RTIDA
 	VALUES ("83a19772-6ec6-46a5-8596-0953c3208385",
 	"796cc70a-9b04-4679-90ab-565c205b0ce2",
@@ -4618,7 +4618,7 @@ INSERT INTO R_AONE
 	"9b47047b-31fa-44e5-b5d3-4a05cd2291b9",
 	1,
 	1,
-	'sells to');
+	'sells_to');
 INSERT INTO O_RTIDA
 	VALUES ("54489735-5a04-48ba-99e0-0ab7213c6858",
 	"c0df1368-b062-495f-b189-431e28f1aefd",
@@ -4659,7 +4659,7 @@ INSERT INTO R_AOTH
 	"2309ce1f-1909-449c-b08b-3bc35110fe04",
 	1,
 	1,
-	'buys from');
+	'buys_from');
 INSERT INTO O_RTIDA
 	VALUES ("54489735-5a04-48ba-99e0-0ab7213c6858",
 	"c0df1368-b062-495f-b189-431e28f1aefd",
