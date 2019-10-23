@@ -1,0 +1,65 @@
+= Title goes here
+
+xtUML Project Analysis Note
+
+== 1 Abstract
+
+A model of gait is provided to serve as a vehicle for gait data analysis.
+
+== 2 Introduction and Background
+
+== 3 Requirements
+
+== 4 Analysis
+
+=== 4.1 Gait Characteristics
+
+The parameters taken into account for the gait analysis are as follows:
+
+* Step length
+* Stride length
+* Cadence
+* Speed
+* Dynamic base
+* Progression line
+* Foot angle
+* Hip angle
+* Squat performance
+
+
+== 5 Work Required
+
+In this section, break out the consequential work (as a numbered list) needed
+to meet the requirements specified in the Requirements section.
+
+=== 5.1 Item
+
+.Recommended Type Mapping
+[options="header"]
+|===
+| MASL type  | xtUML type recommendation
+| boolean    | Use native `boolean`
+| byte       | Create UDT with core type `integer`
+| character  | Create UDT with core type `integer`
+|===
+
+== 6 Acceptance Test
+
+In this section, list the tests that need to be performed in order to
+verify that all the requirements are satisfied.
+
+
+
+== 7 Document References
+
+In this section, list all the documents that the reader may need to refer to.
+Give the full path to reference a file.
+
+. [[dr-1]] https://support.onefact.net/issues/11770[11770 - gait]
+. [[dr-2]] https://en.wikipedia.org/wiki/Gait_analysis[Gait_analysis]
+
+---
+
+This work is licensed under the Creative Commons CC0 License
+
+---
