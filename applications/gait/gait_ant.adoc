@@ -16,44 +16,36 @@ A model of gait is provided to serve as a vehicle for gait data analysis.
 
 The parameters taken into account for the gait analysis are as follows:
 
-* Step length
-* Stride length
-* Cadence
-* Speed
-* Dynamic base
-* Progression line
-* Foot angle
-* Hip angle
-* Squat performance
+* duration of walk
+* cadence
+  ** cycle period
+  ** min, max, avg period
+  ** variability
+* speed
+  ** min, max, avg speed
+  ** variability of speed
+* turn time
+  ** turn time right
+  ** turn time left
+  ** asymmetry
+* step length
+  ** min, max, avg step length right
+  ** min, max, avg step length left
+  ** asymmetry
+* stride length
+  ** stride variability
+* angular movement (at spine)
+  ** min, max, avg angle normal to travel right
+  ** min, max, avg angle normal to travel left
+  ** asymmetry
+* variation from course
 
 
 == 5 Work Required
 
-In this section, break out the consequential work (as a numbered list) needed
-to meet the requirements specified in the Requirements section.
-
-=== 5.1 Item
-
-.Recommended Type Mapping
-[options="header"]
-|===
-| MASL type  | xtUML type recommendation
-| boolean    | Use native `boolean`
-| byte       | Create UDT with core type `integer`
-| character  | Create UDT with core type `integer`
-|===
-
 == 6 Acceptance Test
 
-In this section, list the tests that need to be performed in order to
-verify that all the requirements are satisfied.
-
-
-
 == 7 Document References
-
-In this section, list all the documents that the reader may need to refer to.
-Give the full path to reference a file.
 
 . [[dr-1]] https://support.onefact.net/issues/11770[11770 - gait]
 . [[dr-2]] https://en.wikipedia.org/wiki/Gait_analysis[Gait_analysis]
